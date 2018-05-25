@@ -3,7 +3,7 @@ function todayWeather() {
 	console.log(city);
 	$.ajax({
 		type: 'GET',
-		url: "http://api.openweathermap.org/data/2.5/weather?q=" + city +"&units=metric&APPID=a25d8c40d302f4a26254a9a92a9f8115",
+		url: "https://api.openweathermap.org/data/2.5/weather?q=" + city +"&units=metric&APPID=a25d8c40d302f4a26254a9a92a9f8115",
 		success: function (json_weather) {
 			data = json_weather;
 			var weather = data;
@@ -22,7 +22,7 @@ function forecastWeather(){
 	console.log(city);
 	$.ajax({
 		type: 'GET',
-		url: "http://api.openweathermap.org/data/2.5/forecast?q=" + city +"&units=metric&APPID=a25d8c40d302f4a26254a9a92a9f8115",
+		url: "https://api.openweathermap.org/data/2.5/forecast?q=" + city +"&units=metric&APPID=a25d8c40d302f4a26254a9a92a9f8115",
 		success: function (json_forecast) {
 			data2 = json_forecast;
 			var forecast = data2.list[8];
