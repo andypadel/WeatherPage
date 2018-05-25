@@ -1,0 +1,88 @@
+h3 {
+	font-size: 22px;
+	color: darkgray;
+}
+.wP {
+	margin-bottom: 20px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.container {
+	background-color:none;
+}
+.title {
+	color: #fff;	
+}
+header {
+	background-image: url(bg-pic.jpg);
+	background-position:center;
+	margin-bottom: 20px;
+	border-bottom: solid 2px navy;
+}
+.wTitle {
+	vertical-align: bottom;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	margin-bottom: 15px;
+}
+
+#mySearch {
+	width: 100%;
+	height: 45px;
+	font-size: 25px;
+	font-weight: bold;
+}
+.mag {
+	width: 15px;
+}
+.input-div {
+	align-items: flex-end;
+	margin-bottom: 
+}
+button {
+	height: 45px;
+	vertical-align: middle;
+	font-size: 20px;
+}
+#locationP {
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+}
+#weatherSpan {
+	text-transform: capitalize;
+}
+#weatherDiv {
+	vertical-align: bottom;
+	display: flex;
+	align-items: flex-end;
+}
+.wGC {
+	display: flex;
+	align-items: flex-end;
+	height: 60px;
+	justify-content: space-between;
+	width: 60%;
+}
+#weatherImg {
+	height: 40px;
+	padding-top: 0px;
+}
+#weatherSpan {
+	padding-bottom: 9px;
+	width: 100%;
+	font-weight: bold;
+	color: darkgrey;
+}
+#button-div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.buttonW {
+	margin-right: 15px;
+}
+.buttonF {
+	margin-left: 15px;
+}
